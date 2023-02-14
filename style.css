@@ -2,11 +2,3 @@ body {
     font-family:  Arial, Helvetica, sans-serif;
 }
 
-.pattern-dark {
-    background-color: rgb(219, 200, 118);
-}
-
-.pattern-light {
-    background-color: rgb(105, 105, 105);
-    color: rgb(46, 40, 40);
-}
