@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(138, 136, 132);
+}
+
+h2 {
+    
+}
+
+
+
+#s-header {
+    
+    width: 100%;
+   
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+}
+
+#s-menu {
+    height: 100%;
+    color: white;
+    font-family: monospace;
+  
+  margin: 0;
+
+}
+
+#s-header div {
+    
+    margin: 0 4% 0 4%;
+    margin-right: 4%;
+    margin-left: 4%;
+    height: 100%;
+}
+
+#s-menu ul {
+    list-style: none;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    text-align: right;
+}
+
+#s-menu ul li {
+    
+    display: inline;
+}
+
+
+#s-menu h1 {
+    font-family: monospace;
+    padding-top: 5px;
+    margin: 0px;
+}
+
+#s-space {
+    height: 50px;
+}
+
+#s-sobre {
+    text-align: center;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+}
+
+#s-sobre h2 {
+    color: rgb(90, 90, 90);
+    margin-left: 20px;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+#s-sobre p {
+   
+    text-align: left;
+    width: 400px;
+    color: rgb(90, 90, 90);
+}
+
+#s-knowledge {
+    text-align: center;
+    height: 350px;
+    background-color: rgb(200, 200, 200);
+}
+
+#s-knowledge h2 {
+    color: rgb(90, 90, 90);
+    margin-left: 20px;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+#s-contact {
+    text-align: center;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+}
+
+#s-contact h2 {
+    color: rgb(90, 90, 90);
+    margin-left: 20px;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+footer {
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+}
+
+.profile-image {
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    float: left;
+    width: 180px;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 0, 221);
+};
+
