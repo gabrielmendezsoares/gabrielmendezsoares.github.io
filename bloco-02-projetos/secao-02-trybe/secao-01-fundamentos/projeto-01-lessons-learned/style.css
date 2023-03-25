@@ -11,8 +11,6 @@ body {
 }
 
 main {
-  margin-top: 150px;
-  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -96,23 +94,21 @@ footer {
 }
 
 #lessons {
-  margin-top: 100px;
+  padding-top: 100px;
   width: 400px;
   display: flex;
   justify-content: space-between;
 }
 
 #aside {
-  padding-left: 100px;
-  padding-right: 100px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding: 100px;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
 }
 
 #section-contact {
+  padding-top: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -120,7 +116,7 @@ footer {
 }
 
 #section-data {
-  margin-top: 100px;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -128,7 +124,8 @@ footer {
 }
 
 #section-lessons {
-  margin-top: 100px;
+  padding-bottom: 100px;
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
