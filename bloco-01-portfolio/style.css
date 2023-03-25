@@ -1,0 +1,94 @@
+@font-face {
+  font-family: comfortaa;
+  src: url('fonts/comfortaa.ttf');
+}
+
+
+
+body {
+  background-color: rgb(23, 23, 39);
+  margin: 0;
+}
+
+#top-bar {
+  
+
+  padding: 10px;
+  background-color: rgb(59, 61, 83);
+  box-shadow: 0 0 100px black;
+  z-index: 100;
+}
+
+
+
+
+#a-title {
+
+  color: white;
+  font-family: comfortaa, Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+#menu {
+
+  padding: 0 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+#menu-title {
+  margin: 0;
+  font-family: comfortaa, Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+
+
+#menu-navigation {
+  list-style: none;
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+#menu-social {
+  list-style: none;
+  width: 200px;
+  display: flex;
+
+  align-items: center;
+}
+
+
+#menu-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.menu-item {
+  padding: 0 20px;
+}
+
+.menu-link, .menu-link:active, .menu-link:visited, .menu-link:focus {
+  text-decoration: none;
+  font-family: comfortaa, Arial, Helvetica, sans-serif;
+  user-select: none;
+  color: rgb(200, 200, 200);
+  
+}
+
+
+
+#a-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('images/cover.png');
+  background-size: cover;
+  height: 200px;
+}

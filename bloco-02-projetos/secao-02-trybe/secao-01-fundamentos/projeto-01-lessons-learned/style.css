@@ -1,0 +1,199 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  line-height: normal;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(253 251 251);
+}
+
+h2 {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: black;
+}
+
+p , li , th , td {
+  color: black;
+}
+
+a {
+  color: red;
+}
+
+a:not( :hover) {
+  text-decoration: none;
+  color: maroon;
+  transition: 0.5s;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: red;
+  transition: 0.5s;
+}
+
+.destaque-titulo {
+  color: cornflowerblue;
+}
+
+.destaque-secao {
+  color: red;
+}
+
+.destaque-dado {
+  color: cornflowerblue;
+}
+
+#cabecalho {
+  height: 77px;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  background-color: black;
+}
+
+#titulo {
+  margin: 0;
+  display: inline-block;
+  color: white;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+#menu {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+}
+
+#menu ul li {
+  display: inline-block;
+  padding-left: 20px;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+#conteudo-principal {
+  text-align: center;
+}
+
+#conteudo-secundario {
+  text-align: center;
+  border-top: 1px solid black;
+}
+
+#secao-contato {
+  margin-top: 227px;
+  scroll-margin-top: 77px;
+}
+
+#secao-dados {
+  margin-top: 150px;
+  scroll-margin-top: 77px;
+}
+
+#secao-licoes {
+  margin-top: 150px;
+  scroll-margin-top: 77px;
+}
+
+#minha-foto {
+  margin-top: 100px;
+  width: 200px;
+  border-radius: 20px;
+  border: 3px solid red;
+}
+
+#minha-foto:not(:hover) {
+  margin-top: 100px;
+  width: 200px;
+  border-radius: 20px;
+  border: 3px solid maroon;
+  transition: 0.5s;
+}
+
+#minha-foto:hover {
+  margin-top: 100px;
+  width: 250px;
+  border-radius: 20px;
+  border: 3px solid red;
+  transition: 0.5s;
+}
+
+#contato ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#contato ul li {
+  display: inline-block;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: large;
+  font-weight: 700;
+}
+
+#tabela {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+#tabela th , td {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+#licoes-aprendidas {
+  margin: 100px 100px 150px;
+  display: inline-block;
+  text-align: left;
+}
+
+#licoes-a-aprender {
+  margin: 100px 100px 150px;
+  display: inline-block;
+  text-align: left;
+}
+
+.lado-esquerdo {
+  margin: 150px 100px;
+  display: inline-block;
+  width: 400px;
+  text-align: justify;
+}
+
+.lado-direito {
+  margin: 150px 100px;
+  display: inline-block;
+  width: 400px;
+  text-align: justify;
+}
+
+#rodape {
+  background-color: black;
+}
+
+#direitos {
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+  color: white;
+}
