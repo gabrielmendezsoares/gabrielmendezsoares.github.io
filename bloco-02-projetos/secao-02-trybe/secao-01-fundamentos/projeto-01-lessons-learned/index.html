@@ -2,105 +2,104 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lessons Learned</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header id="cabecalho">
-    <h1 id="titulo"><span class="destaque-titulo">Project</span> Lessons Learned</h1>
+  <header>
+    <h1>Lessons Learned</h1>
 
-    <nav id="menu">
-      <ul>
-        <li><a href="#secao-contato" target="_self">Contato</a></li>
-        <li><a href="#secao-dados" target="_self">Dados</a></li>
-        <li><a href="#secao-licoes" target="_self">Lições</a></li>
-        <li><a href="#conteudo-secundario" target="_self">Relacionado</a></li>
-      </ul>
+    <nav id="header-menu">
+      <a href="#section-contact" target="_self" class="navigation-item">Contato</a>
+      <a href="#section-data" target="_self" class="navigation-item">Dados</a>
+      <a href="#section-lessons" target="_self" class="navigation-item">Lições</a>
+      <a href="#conteudo-secundario" target="_self" class="navigation-item">Relacionado</a>
     </nav>
   </header>
 
-  <main id="conteudo-principal">
-    <section id="secao-contato">
-      <h2><span class="destaque-secao">.</span> Contato</h2>
+  <main>
+    <section id="section-contact">
+      <h2><span class="highlight">#</span> Contato</h2>
 
-      <img id="minha-foto" src="./imagens/imagem-01.jpg" alt="Foto de perfil" />
+      <img id="profile-image" src="imagens/imagem-01.jpg" alt="Foto de perfil" />
 
-      <nav id="contato">
-        <ul>
-          <li>
-            <a href="https://www.linkedin.com/in/gabriel-mendez-soares/" target="_blank">LinkedIn</a>
-          </li>
-          <li>
-            <a href="https://github.com/gabrielmendezsoares" target="_blank">GitHub</a>
-          </li>
-        </ul>
+      <nav id="contact-menu">
+        <a href="https://www.linkedin.com/in/gabriel-mendez-soares/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/gabrielmendezsoares" target="_blank">GitHub</a>
       </nav>
     </section>
 
-    <section id="secao-dados">
-      <h2><span class="destaque-secao">.</span> Dados</h2>
+    <section id="section-data">
+      <h2><span class="highlight">#</span> Dados</h2>
 
-      <table id="tabela">
+      <table id="table">
         <tr>
           <th>Dado</th>
           <th>Especificação</th>
         </tr>
+
         <tr>
-          <td class="destaque-dado"><strong>Nome</strong></td>
+          <td class="highlight"><strong>Nome</strong></td>
           <td>Gabriel Mendez Soares</td>
         </tr>
+
         <tr>
-          <td class="destaque-dado"><strong>Turma</strong></td>
+          <td class="highlight"><strong>Turma</strong></td>
           <td>31</td>
         </tr>
+
         <tr>
-          <td class="destaque-dado"><strong>Tribo</strong></td>
+          <td class="highlight"><strong>Tribo</strong></td>
           <td>B</td>
         </tr>
       </table>
     </section>
 
-    <section id="secao-licoes">
-      <h2><span class="destaque-secao">.</span> Lições</h2>
+    <section id="section-lessons">
+      <h2><span class="highlight">#</span> Lições</h2>
 
-      <ol id="licoes-aprendidas">
-        <li>Unix</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>Empatia</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Slack</li>
-        <li>Zoom</li>
-        <li>Inspect</li>
-        <li>Semantic HTML</li>
-      </ol>
+      <div id="lessons">
+        <ol id="licoes-aprendidas">
+          <li class="lesson-item">Unix</li>
+          <li class="lesson-item">Git</li>
+          <li class="lesson-item">GitHub</li>
+          <li class="lesson-item">Empatia</li>
+          <li class="lesson-item">HTML</li>
+          <li class="lesson-item">CSS</li>
+          <li class="lesson-item">Slack</li>
+          <li class="lesson-item">Zoom</li>
+          <li class="lesson-item">Inspect</li>
+          <li class="lesson-item">Semantic HTML</li>
+        </ol>
 
-      <ul id="licoes-a-aprender">
-        <li>JavaScript</li>
-        <li>DOM</li>
-        <li>Forms</li>
-        <li>CSS Responsive</li>
-        <li>ES6</li>
-        <li>HOF</li>
-        <li>Unit Tests</li>
-        <li>React</li>
-        <li>Node</li>
-        <li>SQL</li>
-      </ul>
+        <ul id="licoes-a-aprender">
+          <li class="lesson-item">JavaScript</li>
+          <li class="lesson-item">DOM</li>
+          <li class="lesson-item">Forms</li>
+          <li class="lesson-item">CSS Responsive</li>
+          <li class="lesson-item">ES6</li>
+          <li class="lesson-item">HOF</li>
+          <li class="lesson-item">Unit Tests</li>
+          <li class="lesson-item">React</li>
+          <li class="lesson-item">Node</li>
+          <li class="lesson-item">SQL</li>
+        </ul>
+      </div>
     </section>
   </main>
 
-  <div id="conteudo-secundario">
+  <hr>
+
+  <div id="aside">
 
     <article class="lado-esquerdo">
       <h2><span class="destaque-secao">.</span> Article</h2>
 
-      <p>
+      <p class="content">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga voluptates repudiandae, non voluptatem magnam
         animi obcaecati rem quae eaque, eveniet ducimus itaque perferendis veritatis quos minima, accusantium explicabo
         aperiam. Facere asperiores modi tenetur eum totam laudantium cum, perferendis sed eius optio nihil debitis
@@ -112,16 +111,14 @@
     <aside class="lado-direito">
       <h2><span class="destaque-secao">.</span> Aside</h2>
 
-      <p>
+      <p class="content">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error sed sint odio a deserunt facilis minima eius.
         Natus cum officia cupiditate laboriosam facilis maiores esse!
       </p>
     </aside>
   </div>
 
-  <footer id="rodape">
-    <p id="direitos">Todos os direitos reservados. Gabriel Mendez Soares</p>
-  </footer>
+  <footer>Todos os direitos reservados. Gabriel Mendez Soares</footer>
 </body>
 
 </html>
